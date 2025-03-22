@@ -120,7 +120,7 @@ body{
         min-width: 85%;
     }
     .navbar{
-        width: 90%;
+       
     }
 }
 
@@ -145,9 +145,37 @@ body{
         padding: 10px;
         min-width: 85%;
     }
-    .navbar{
-        width: 90%;
+    #volumeslider {
+        margin-left: 50px;
     }
+
+    
 }
+@media (max-width: 400px){
+    #music-player-container {
+        padding: 10px;
+        min-height: 50%;
+        margin-top: 82px;
+    }
+
+    #music-player {
+        padding: 10px;
+       
+    }
+
+    .d-flex i {
+        font-size: 30px;
+    }
+
+    #playlist-container {
+        padding: 15px;
+        min-width: 100%;
+    }
+    #volumeslider {
+        margin-left: 90px;
+    }
+
+}
+
 
 
